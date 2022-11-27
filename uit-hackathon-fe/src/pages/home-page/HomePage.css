@@ -1,0 +1,14 @@
+.home-page {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.home-page__events {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}

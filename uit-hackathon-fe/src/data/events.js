@@ -1,0 +1,28 @@
+export default [
+  {
+    name: "Event 1",
+    description: "This is Event 1",
+    maxJoin: 10,
+    time: Date.now(),
+    organizationId: "blabla",
+    participants: ["user1", "user2"],
+    country: "Vietnam",
+    city: "HCM City",
+    district: "District 7",
+    address: "Ton Duc Thang",
+    imageUrl: "https://sieupet.com/sites/default/files/anh_meo_hai_huoc1.jpg",
+  },
+  {
+    name: "Event 2",
+    description: "This is Event 2",
+    maxJoin: 10,
+    time: Date.now(),
+    organizationId: "blabla",
+    participants: ["user1", "user2"],
+    country: "Vietnam",
+    city: "HCM City",
+    district: "District 7",
+    address: "Ton Duc Thang",
+    imageUrl: "https://catscanman.net/wp-content/uploads/2021/09/anh-meo-cute-de-thuong-34.jpg",
+  },
+];

@@ -1,0 +1,78 @@
+.main-event {
+  height: 60vh;
+  margin-top: 16;
+  display: flex;
+}
+
+.main-event__thumbnail {
+  object-fit: cover;
+}
+
+.main-event__details {
+  position: relative;
+}
+
+.main-event__participants {
+  margin-top: 20px;
+}
+
+.main-event .ant-card-body {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-event__description {
+  font-size: 15;
+  font-style: italic;
+}
+
+.main-event__table {
+  width: 100%;
+}
+
+.main-event__table tr:first-child {
+  font-weight: 600;
+  color: var(--danger);
+}
+
+.main-event__table tr:nth-child(2) {
+  font-weight: 600;
+  color: var(--danger);
+}
+
+.main-event__table td:first-child {
+  padding-right: 15px;
+}
+
+.main-event__thumbnail {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px 0px 0px 8px !important;
+}
+
+.main-event__actions {
+  display: flex;
+  gap: 12px;
+  margin: auto -24px -24px -24px !important;
+  border-top: 1px solid #eee;
+  color: #999;
+  padding: 10px;
+}
+
+.main-event__button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding: 4px;
+}
+
+.main-event__button:hover {
+  color: #1890ff;
+}
+
+.main-event__button--border-left {
+  border-left: 1px solid #eee;
+}

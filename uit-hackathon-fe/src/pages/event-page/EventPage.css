@@ -1,0 +1,48 @@
+.event-detail__participants {
+  margin-top: 20px;
+}
+
+.event-detail__table tr:first-child {
+  font-weight: 600;
+  color: var(--danger);
+}
+
+.event-detail__table tr:nth-child(2) {
+  font-weight: 600;
+  color: var(--danger);
+}
+
+.event-detail__join-icon:hover {
+  color: green !important;
+}
+
+.event-detail__table td:first-child {
+  text-align: right;
+  padding-right: 20px;
+}
+
+.event-detail__actions {
+  display: flex;
+  gap: 12px;
+  margin: 20px -24px -24px -24px !important;
+  border-top: 1px solid #eee;
+  color: #999;
+  padding: 10px;
+}
+
+.event-detail__button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding: 4px;
+}
+
+.event-detail__button:hover {
+  color: #1890ff;
+}
+
+.event-detail__button--border-left {
+  border-left: 1px solid #eee;
+}

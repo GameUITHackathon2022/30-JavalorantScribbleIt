@@ -1,0 +1,18 @@
+:root {
+  --spot-1: #69d84f;
+  --spot-2: #719465;
+  --spot-3: #dff8d5;
+  --spot-4: #004d73;
+  --danger: #d9534f;
+  --success: #22bb33;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
